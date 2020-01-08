@@ -3,6 +3,7 @@
 -- findblock(content, "{", "}")
 function findblock(content, c1, c2)
     local flag, start, tail, s = 0, 0, 0, 1
+        end
     
     if type(content) ~= "string" then return false end
     
